@@ -93,7 +93,8 @@ def _get_user_data(members):
     }
 
     for i in range(0, len(members)):
-    
+        if i % 3 == 0:
+            time.sleep(1)
         try:
             subscriptions = ','.join(map(str, _get_user_subscriptions(members[i])))
             # the key is the user id and the value are his subscriptions
