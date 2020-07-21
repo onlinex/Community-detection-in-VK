@@ -5,5 +5,5 @@ This repo holds the code to detect subcommunities in a given VK group, utilizing
 
 <img src="https://github.com/onlinex/Community-detection-in-VK/blob/master/graph.png">
 
-Ford-Fulkerson Algorithm vs Karger's Algorithm runtime benchmark
+Ford-Fulkerson's Algorithm vs Karger's Algorithm runtime benchmark
 <img src="https://github.com/onlinex/Community-detection-in-VK/blob/master/performance.png">
